@@ -1,0 +1,6 @@
+To run the program, type the following two lines in the command line while you're in the phase2 directory:
+javac -cp .  src/photomanager/Controllers/*.java src/photomanager/Models/*.java src/Views/*.java src/photomanager/*.java
+java -cp "src" Views.Main
+
+While running the UnitTests, JUnit 4.12 and hamcrest-core-1.3.jar need to be compiled in IntelliJ
+

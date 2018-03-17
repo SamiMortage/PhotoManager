@@ -1,0 +1,93 @@
+Welcome to PhotoManager.
+
+Follow these easy steps to make the most of your PhotoManager experience.
+
+
+====================== IMPORTING IMAGE INTO APPLICATION ========================
+
+1. Go to File -> Import
+2. Then on the right either choose to add directory or image.
+3. Press back to view your newly imported images.
+
+========================== ADDING TAGS TO AN IMAGE =============================
+
+1. From the home window choose the image you wish to add tags to
+2. Once the image is opened, click add tag
+3. User may wish to add from already existing tags or create new tag
+       - If you wish to create a new tag, type it into the textfield and add the new tag
+       - The new Tag will appear in the tag list below
+4. Select all tags from the list you wish to add to image and click -Add Tags-
+
+========================= DELETING TAGS FROM AN IMAGE ==========================
+
+1. From the home window choose the image you wish to delete tag from
+2. Once the image is opened, select all tags you wish to delete
+
+==================== CREATE A NEW TAG INDEPENDENT OF IMAGE =====================
+
+1. Go to Options -> New Tag
+2. Type in the tag name you wish to create and click -create-
+
+======================= DELETE TAGS INDEPENDENT OF IMAGE =======================
+
+1. Go to Options -> Delete Tag
+2. Select all tags you wish to delete and click -delete-
+
+====================== DELETE IMAGE FROM PHOTOMANAGER ==========================
+
+1. Select all the photos you wish to delete
+2. Go to File -> Delete
+
+====================== RECOVER RECENTLY DELETED IMAGES =========================
+
+1. Go to View -> Trash
+2. In the trash window select all image files you wish to recover
+3. Then click -Recover Item(s)
+
+========================== DELETE ITEMS FROM TRASH =============================
+
+1. Go to View -> Trash
+2. Select items you wish to delete
+3. Then click -Delete Item(s)-
+
+1. User may wish to delete all items in trash by clicking -Empty Trash-
+
+============================= USING SEARCH BAR =================================
+
+1. To search for tags, toggle to tags in home window and search
+2. Alternatively to search for images, toggle to image in home window and search
+
+****** NOTE ******
+Searching is case sensitive
+
+======================== VIEW AN IMAGE'S TAG HISTORY ===========================
+
+1. From the home window select and image you wish to view the tag history
+2. Click -Show Tag History- to view the image's tagging history
+
+======================== REVERT AN IMAGE'S SET OF TAGS ==========================
+
+1. From the home window select and image you wish to view the tag history
+2. Click -Show Tag History- to view the image's tagging history
+3. Select the set of tags you wish to revert back to
+4. Click -Revert Name- to revert back to that tag set
+
+======================= VIEW AN IMAGE'S NAMING HISTORY ==========================
+
+1. From the home window select the image you wish to view the name history
+2. Click -Show Name History-
+
+======================== OPEN AN IMAGE IN OS DIRECTORY ==========================
+
+1. From the home window select the image you wish to open in OS directory
+2. Click -Open in Directory-
+
+========================== MOVE IMAGE TO NEW LOCATION ===========================
+
+1. From the home window select the image you wish to move
+2. Click -Move Image- and select directory you wish to move the image to
+
+====================== REFRESH HOME WINDOW AFTER SEARCHING ======================
+
+1. After searching, click Options -> Refresh to refresh home window to
+   display all image files

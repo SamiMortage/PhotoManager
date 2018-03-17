@@ -1,0 +1,34 @@
+Ishmam
+
+- Updated JavaDocs for the program and included comments
+
+- Added a help window to guide the user through the program
+
+- Tested the code using various test cases to identify bugs in the back-end and front-end
+
+Sami:
+
+- Created MasterLog, Entry, EntryToProperty
+
+- Fixed bugs in the backend code such as opening in directory, tags not adding to the image, and file not moving correctly
+
+
+Parmjit:
+
+- Added trash feature
+
+- Modified the search feature
+
+- Fixed listview/tableview issues
+
+Wilbert:
+
+- Added global tags
+
+- Deleted global tags
+
+- Added a feature to view global tags
+
+- Added feature to add/delete multiple tags at once
+
+- Did unit tests

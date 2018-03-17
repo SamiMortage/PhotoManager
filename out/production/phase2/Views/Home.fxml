@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="640.0" maxWidth="1024.0" minHeight="640.0" minWidth="1024.0" prefHeight="640.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.HomeWindowController">
+   <children>
+      <ToolBar maxHeight="40.0" maxWidth="1024.0" minHeight="40.0" minWidth="1024.0" prefHeight="40.0" prefWidth="1024.0" style="-fx-background-color: #383838;">
+        <items>
+            <MenuBar stylesheets="@styles.css">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#importImages" text="Import" />
+                    <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Options">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#refresh" text="Refresh" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <Region maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="587.0" />
+            <TextField id="searchText" fx:id="searchText" alignment="CENTER_RIGHT" />
+          <Button fx:id="searchButton" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#searchImage" text="Search" />
+        </items>
+      </ToolBar>
+      <ListView fx:id="listViewer" onMouseClicked="#openImage" prefHeight="600.0" prefWidth="1024.0" />
+   </children>
+</VBox>

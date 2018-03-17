@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="640.0" maxWidth="1024.0" minHeight="640.0" minWidth="1024.0" prefHeight="640.0" prefWidth="1024.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.TagHistoryController">
+    <children>
+        <ToolBar maxHeight="60.0" maxWidth="1024.0" minHeight="60.0" minWidth="1024.0" prefHeight="60.0" prefWidth="1024.0">
+            <items>
+                <Button maxWidth="70.0" minWidth="70.0" mnemonicParsing="false" onAction="#backButton" prefWidth="70.0" text="Back" />
+                <Region prefHeight="20.0" prefWidth="783.0" />
+                <Button fx:id="revertButton" mnemonicParsing="false" onAction="#revertToTag" text="Revert Tag" />
+            </items>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+        </ToolBar>
+        <ListView fx:id="listView" onMouseClicked="#tagClicked" prefHeight="600.0" prefWidth="1024.0" />
+    </children>
+</VBox>
