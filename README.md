@@ -1,7 +1,7 @@
 # PhotoManager
-Project Overview:  
+/* Project Overview: */  
 
-Here are updated client requirements:
+A photo management program that has the following features:
 
 The user wants to be able to manage a set of tags independently from any
 images. This tag set should persist through a quit and restart. The user
